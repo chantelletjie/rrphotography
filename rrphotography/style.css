@@ -1,25 +1,26 @@
 body{
     margin: auto;
-    width: 1000px;
-    background: url("beautiful_blossoms.jpg") 0px no-repeat fixed; 
+    /* width: 1000px; */
+    /* background: url("beautiful_blossoms.jpg") 0px no-repeat fixed;  */
     background-size: cover;
-    
+    background-color: rgba(65, 11, 88, 0.445);
     
 }
 
-h1{
+#main-heading{
     font-family: "Monotype Corsiva";
     text-align: center;
     font-size: 40px;
     display: flex;
+    flex: auto;
+    margin-left: 20px;
 }
 
 #menu{
     list-style-type: none;
     text-align: center;
-    margin: 0px;
     padding: 0px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     border: hidden;
     overflow: hidden;
     background-color: rgb(50, 83, 83);
@@ -27,6 +28,7 @@ h1{
 
 #menu li{
     float: left;
+    
 }
 
 #menu a{
@@ -45,7 +47,7 @@ h1{
 #container{
     border: 2px solid darkslategrey;
     background-color: white;
-    width: 1000px;
+    /* width: 1000px; */
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -55,7 +57,7 @@ h1{
 #container2{
     border: 2px solid darkslategrey;
     background-color: rgb(255, 255, 255);
-    width: 1000px;
+    /* width: 1000px; */
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -146,15 +148,15 @@ textarea {
 
 footer{
     display: block;
-    position: fixed;
+    position: sticky;
     bottom: 0px;
     text-align: center;
-    margin: 0px;
+    margin: auto;
     border: hidden;
     background-color: darkslategrey;
     border-radius: 5px;
     padding: 5px 0 5px 0;
-    width: 1000px;
+    /* width: 1000px; */
     color: white;
 }
 
