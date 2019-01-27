@@ -4,14 +4,12 @@ body{
     background: url("beautiful_blossoms.jpg") 0px no-repeat fixed; 
     background-size: cover;
     
-    z-index: 1;
+  
 }
 
 .backgroundstyle{
     background-color: rgba(65, 11, 88, 0.548);
-    z-index: 0;
     background-size: cover;
-    margin: 0px;
 }
 
 #main-heading{
@@ -50,25 +48,51 @@ body{
 
 #menu li a:hover{
     background-color: black;
+    
 }
 
 #container{
     border: 2px solid darkslategrey;
     background-color: white;
-    /* width: 1000px; */
+    width: 1250px;
+    margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   
 }
 
 
 #container2{
+    height: 490px;
     border: 2px solid darkslategrey;
-    background-color: rgb(255, 255, 255);
-    /* width: 1000px; */
+    background-color: rgba(255, 255, 255, 0.726);
+    width: 1250px;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+    align-content: center;
+    
+}
+
+.info{
+    margin: auto;
+   
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    float: initial;
+    text-align: center;
+
+    border: 2px solid; 
+    background-color: rgba(8, 8, 8, 0.432);
+    border-radius: 0.9em;
+    border-color:rgba(63, 60, 60, 0.651);
 }
 
 
@@ -97,7 +121,7 @@ iframe{
 
 h3{
     margin: 5px;
-
+    
 }
 
 input[type=text] {
@@ -147,14 +171,17 @@ textarea {
 
 
 .contact-form{
+    float:left;
     
     border: 2px solid; 
-    background-color: rgba(54, 104, 119, 0.24);
+    background-color: rgba(8, 8, 8, 0.432);
     
     padding: 0.9em 1.2em;
-    margin: 0.5em 0.3em 0.8em 0;
+    margin: auto;
+    width: 500px;
+
     border-radius: 0.9em;
-    border-color:rgba(255, 255, 255, 0.041);
+    border-color:rgba(63, 60, 60, 0.651);
 }
 
 
@@ -166,10 +193,12 @@ footer{
     margin: auto;
     border: hidden;
     background-color: darkslategrey;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     padding: 5px 0 5px 0;
-    /* width: 1000px; */
+    width: 100%;
     color: white;
+    overflow: hidden;
+    
 }
 
 /* Hexagon shapes for the images **************************************************************/
@@ -333,4 +362,22 @@ footer{
       #hexGrid {
           font-size: 13px;
       }
+  }
+
+
+  .images-list {
+    border: 1px solid slategray;
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+    margin: auto; 
+    margin-top: 5px;   
+    transition: all 0.5s;
+    border-radius: 100px;
+    flex-wrap: wrap;
+
+  }
+
+  .images-list:hover{
+      transform: scale(1.1);
   }
