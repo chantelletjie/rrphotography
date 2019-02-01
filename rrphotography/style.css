@@ -3,7 +3,8 @@ body{
     /* width: 1000px; */
     background: url("beautiful_blossoms.jpg") 0px no-repeat fixed; 
     background-size: cover;
-    
+    /* display: flex;
+    flex-wrap: wrap; */
   
 }
 
@@ -54,7 +55,7 @@ body{
 #container{
     border: 2px solid darkslategrey;
     background-color: white;
-    width: 1250px;
+    /* width: 1250px; */
     margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -62,37 +63,36 @@ body{
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    overflow-wrap: normal;
+    overflow: hidden;
    
 }
 
 
 #container2{
-    height: 490px;
+    /* height: 490px; */
     border: 2px solid darkslategrey;
     background-color: rgba(255, 255, 255, 0.726);
-    width: 1250px;
+    
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
     padding: 10px;
     margin: auto;
     align-content: center;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .info{
-    margin: auto;
-   
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    float: initial;
+    margin-right: auto;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     text-align: center;
-
-    border: 2px solid; 
+    border: 2px solid;
     background-color: rgba(8, 8, 8, 0.432);
     border-radius: 0.9em;
-    border-color:rgba(63, 60, 60, 0.651);
+    border-color: rgba(63, 60, 60, 0.651);
 }
 
 
@@ -171,17 +171,13 @@ textarea {
 
 
 .contact-form{
-    float:left;
-    
-    border: 2px solid; 
+    border: 2px solid;
     background-color: rgba(8, 8, 8, 0.432);
-    
     padding: 0.9em 1.2em;
-    margin: auto;
-    width: 500px;
-
+    margin-right: auto;
+    width: 400px;
     border-radius: 0.9em;
-    border-color:rgba(63, 60, 60, 0.651);
+    border-color: rgba(63, 60, 60, 0.651);
 }
 
 
@@ -380,4 +376,11 @@ footer{
 
   .images-list:hover{
       transform: scale(1.1);
+  }
+
+  #index-photos{
+   display: flex;
+   float: left;
+   flex-wrap: wrap;
+   justify-content: center;
   }
