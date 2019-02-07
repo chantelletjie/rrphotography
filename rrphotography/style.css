@@ -23,19 +23,31 @@ body{
     padding: 27px 0 0 0;
 }
 
+#logo{
+
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
 #menu{
     list-style-type: none;
     text-align: center;
-    padding: 0px;
+    padding: unset;
     /* border-radius: 5px; */
-    border: hidden;
-    overflow: hidden;
+    /* border: hidden; */
     background-color: rgb(50, 83, 83);
+    margin: auto;
+    /* z-index: 5; */
+    float: right;
+    margin-top: 70px;
 }
 
 #menu li{
     float: left;
-    
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #menu a{
@@ -44,12 +56,13 @@ body{
     display: block;
     text-align: center;
     padding: 14px 16px;
+    margin: auto;
 
 }
 
 #menu li a:hover{
     background-color: black;
-    
+    margin: auto;
 }
 
 #container{
@@ -59,9 +72,9 @@ body{
     margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     padding: 10px;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     overflow-wrap: normal;
     overflow: hidden;
@@ -74,25 +87,29 @@ body{
     border: 2px solid darkslategrey;
     background-color: rgba(255, 255, 255, 0.726);
     
+    margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     padding: 10px;
-    margin: auto;
-    align-content: center;
     display: flex;
     flex-wrap: wrap;
+    overflow-wrap: normal;
+    overflow: hidden;
 }
 
 .info{
-    margin-right: auto;
+        /* margin-right: auto; */
     /* display: flex; */
     /* flex-wrap: wrap; */
+    float: right;
     text-align: center;
     border: 2px solid;
     background-color: rgba(8, 8, 8, 0.432);
     border-radius: 0.9em;
     border-color: rgba(63, 60, 60, 0.651);
+    padding: 5px;
+    margin: 20px;
 }
 
 
@@ -171,13 +188,15 @@ textarea {
 
 
 .contact-form{
-    border: 2px solid;
-    background-color: rgba(8, 8, 8, 0.432);
-    padding: 0.9em 1.2em;
-    margin-right: auto;
-    width: 400px;
-    border-radius: 0.9em;
-    border-color: rgba(63, 60, 60, 0.651);
+        /* border: 2px solid; */
+    /* background-color: rgba(8, 8, 8, 0.432); */
+    padding: 0.9em 3em;
+    /* margin-right: 50px; */
+    /* margin-left: 100px; */
+    width: 600px;
+    /* border-radius: 0.9em; */
+    /* border-color: rgba(63, 60, 60, 0.651); */
+    float: left;
 }
 
 
@@ -194,7 +213,7 @@ footer{
     width: 100%;
     color: white;
     overflow: hidden;
-    
+    z-index: 2;
 }
 
 /* Hexagon shapes for the images **************************************************************/
