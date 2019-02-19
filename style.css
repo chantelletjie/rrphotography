@@ -25,23 +25,52 @@ body{
 
 #logo{
 
-    width: 35%;
+    width: 50vw;
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
 }
 
+@media(max-width: 360px){
+  #logo{
+
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+}
+
 #menu{
     list-style-type: none;
-    text-align: center;
+    /* text-align: center; */
     padding: unset;
     /* border-radius: 5px; */
     /* border: hidden; */
     background-color: rgb(50, 83, 83);
     margin: auto;
-    /* z-index: 5; */
+    z-index: 5;
     float: right;
+    display: flex;
+    flex-wrap: wrap;
     
+}
+
+@media(max-width: 360px) {
+  #menu{
+
+    list-style-type: none;
+    /* text-align: center; */
+    padding: unset;
+    /* border-radius: 5px; */
+    /* border: hidden; */
+    background-color: rgb(50, 83, 83);
+    margin: auto;
+    width: -webkit-fill-available;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
 }
 
 #menu li{
