@@ -143,16 +143,29 @@ body{
 }
 
 
+h1{
+  padding: 5px;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 100;
+}
+
+
+
 h2{
     padding: 5px;
     font-family: 'Great Vibes', cursive;
-    font-size: 40px;
+    font-size: 4em;
+    text-align: center;
+    font-weight: 100;
 }
 
 p{
     padding: 5px;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
+    text-align: center;
 }
 
 iframe{ 
@@ -171,7 +184,7 @@ iframe{
 
 h3{
     margin: 5px;
-    
+    font-family: 'Open Sans', sans-serif;
 }
 
 input[type=text] {
@@ -197,7 +210,7 @@ button {
     border-radius: 0.9em;
     box-sizing: border-box;
     text-decoration:none;
-    font-family:'Roboto',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight:300;
     color:#FFFFFF;
     background-color:darkslategrey;
@@ -302,6 +315,7 @@ footer{
           -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
               transform: skewY(-30deg) rotate3d(0,0,1,60deg);
       background-color: rgba(226, 166, 245, 0.295);
+      cursor: unset;
   }
   
   /*** HEX CONTENT **********************************************************************/
@@ -324,6 +338,7 @@ footer{
     font-weight: 300;
     -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
             transition:          transform .2s ease-out, opacity .3s ease-out;
+    font-size: 0.9em;
   }
   .hex h1 {
     bottom: 50%;
@@ -333,6 +348,7 @@ footer{
     -webkit-transform:translate3d(0,-100%,0);
         -ms-transform:translate3d(0,-100%,0);
             transform:translate3d(0,-100%,0);
+          
   }
   .hex h1::after {
     content: '';
@@ -342,6 +358,7 @@ footer{
     width: 10%;
     text-align: center;
     border-bottom: 1px solid #fff;
+    
   }
   .hex p {
     top: 50%;
@@ -349,6 +366,7 @@ footer{
     -webkit-transform:translate3d(0,100%,0);
         -ms-transform:translate3d(0,100%,0);
             transform:translate3d(0,100%,0);
+    font-size: 0.9em;
   }
   
   
@@ -358,6 +376,7 @@ footer{
     -webkit-transform:translate3d(0,0,0);
         -ms-transform:translate3d(0,0,0);
             transform:translate3d(0,0,0);
+    
   }
   
   /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
