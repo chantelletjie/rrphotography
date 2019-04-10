@@ -1,12 +1,9 @@
 body{
     margin: auto;
-    /* width: 1000px; */
+   
     background: url("beautiful_blossoms.jpg") 0px no-repeat fixed; 
     background-size: cover;
-    /* display: flex;
-    flex-wrap: wrap; */
-  
-}
+  }
 
 .backgroundstyle{
     background-color: rgba(65, 11, 88, 0.548);
@@ -87,7 +84,7 @@ body{
     text-align: center;
     padding: 14px 16px;
     margin: auto;
-
+    
 }
 
 #menu li a:hover{
