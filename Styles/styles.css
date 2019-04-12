@@ -19,7 +19,14 @@ body{
     /* display: flex;
     flex-wrap: wrap; */
 }
-
+@media (max-width: 300px){
+    .w3-content{
+        margin: auto;
+        max-width: 300px;
+        max-height: 500px;
+    
+    }
+}
 .w3-container{
     margin: auto;
     /* display: flex;
@@ -27,7 +34,14 @@ body{
     
     
 }
-
+@media (max-width: 300px){
+    .w3-container{
+        margin: auto;
+        max-width: 300px;
+        max-height: 500px;
+    
+    }
+}
 h2{
     padding: 5px;
     font-family: 'Great Vibes', cursive;
@@ -45,6 +59,14 @@ h2{
     flex-wrap: wrap;
     
 }
+@media (max-width: 300px){
+    .mySlides{
+        margin: auto;
+        max-width: 300px;
+        max-height: 500px;
+    
+    }
+}
 
 img{
    clear: both;
@@ -54,14 +76,15 @@ img{
     
 }
 
-@media (max-width: 300px){
+@media(max-width: 360px){
     img{
-        margin: auto;
-        max-width: 300px;
-        max-height: 500px;
-    
-    }
-}
+      width: 90vw;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 5px;
+      max-height: 500px;
+  }
+  }
 
 
 
@@ -82,6 +105,7 @@ img{
     cursor: pointer;
     /* display: flex;
     flex-wrap: wrap; */
+    box-shadow: 0 0 13px 0px black;
 }
 
 
