@@ -49,9 +49,9 @@ h2{
     margin: auto;
     font-weight: 100;
  
-    /* display: flex;
-    flex-wrap: wrap; */
-    float: unset;
+    display: inline;
+   
+   
 }
 
 .mySlides{
@@ -73,7 +73,7 @@ img{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    
+    padding: 5px;
 }
 
 @media(max-width: 360px){
