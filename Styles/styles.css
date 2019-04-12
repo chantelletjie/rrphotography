@@ -2,17 +2,14 @@ body{
     margin: auto;   
     background: url("../beautiful_blossoms.jpg") 0px no-repeat fixed; 
     background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    
+
 }
 
   .backgroundstyle{
     background-color: rgba(65, 11, 88, 0.548);
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+   
 }
 .w3-content{
     margin: auto;
@@ -48,8 +45,9 @@ h2{
     font-size: 4em;
     margin: auto;
     font-weight: 100;
- 
-    display: inline;
+    text-align: center;
+    color: white;
+   
    
    
 }
@@ -69,11 +67,11 @@ h2{
 }
 
 img{
-   clear: both;
+
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 5px;
+    
 }
 
 @media(max-width: 360px){
