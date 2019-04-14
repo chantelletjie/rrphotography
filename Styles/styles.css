@@ -52,6 +52,23 @@ h2{
    
 }
 
+
+h4{
+    padding: 5px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    margin: auto;
+    font-weight: 100;
+    text-align: end;
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+    
+}
+
 .mySlides{
     margin: auto;
     flex-wrap: wrap;
